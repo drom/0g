@@ -11,5 +11,5 @@ const main = (size) =>
         .translate([0, -3.5, -0.5])
         .rotateZ(-45)
     )
-    .subtract(sphere(3))
+    .subtract(sphere(2))
     .union(sphere(1));
